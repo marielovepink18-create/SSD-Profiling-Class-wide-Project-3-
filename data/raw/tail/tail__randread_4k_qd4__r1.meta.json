@@ -1,0 +1,33 @@
+{
+  "id": "tail__randread_4k_qd4__r1",
+  "stage": "tail",
+  "label": "randread_4k_qd4",
+  "rep": 1,
+  "rw": "randread",
+  "pattern": "random",
+  "bs": "4k",
+  "bs_bytes": 4096,
+  "iodepth": 4,
+  "numjobs": 1,
+  "rwmixread": null,
+  "span_gib": 4.0,
+  "direct": 1,
+  "ioengine": "windowsaio",
+  "compress_pct": 0,
+  "note": "",
+  "extra": {},
+  "runtime_s": 20,
+  "start": "2026-10-22T16:11:08",
+  "wall_s": 22.8,
+  "returncode": 0,
+  "stderr_tail": "",
+  "temp_before_c": 49.0,
+  "temp_after_c": 47.0,
+  "temp_series": [
+    [
+      28.3,
+      56.0
+    ]
+  ],
+  "fio_version": "fio-3.43"
+}

@@ -1,0 +1,21 @@
+; stage=blocksize label=randwrite_128k_qd32 rep=2
+[global]
+[blocksize__randwrite_128k_qd32__r2]
+filename=C\:\fio_test\ssd_profile_testfile.bin
+ioengine=windowsaio
+direct=1
+rw=randwrite
+bs=128k
+iodepth=32
+numjobs=1
+size=4096m
+offset=0
+time_based=1
+runtime=8
+ramp_time=1
+group_reporting=1
+randrepeat=0
+refill_buffers=1
+buffer_compress_percentage=0
+percentile_list=50:90:95:99:99.9:99.99
+norandommap=1

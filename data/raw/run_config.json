@@ -1,0 +1,31 @@
+{
+  "started": "2026-10-22T16:29:40",
+  "fio_version": "fio-3.43",
+  "config": {
+    "target": "C:\\fio_test\\ssd_profile_testfile.bin",
+    "size_gib": 4.0,
+    "runtime": 8,
+    "ramp": 1,
+    "reps": 2,
+    "tail_runtime": 20,
+    "steady_seconds": 60,
+    "precondition_seconds": 30,
+    "cooldown": 1,
+    "bs_qds": [
+      32
+    ],
+    "qds": [
+      1,
+      4,
+      16,
+      64,
+      256
+    ],
+    "ioengine": "windowsaio",
+    "fio_bin": "fio",
+    "profile": "quick"
+  },
+  "stages": [
+    "pitfall"
+  ]
+}

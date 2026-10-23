@@ -1,0 +1,115 @@
+﻿Captured: 2026-10-22T15:59:47
+
+===== Computer =====
+
+
+Manufacturer        : HP
+Model               : HP Laptop 17z-cp000
+TotalPhysicalMemory : 10607218688
+
+
+
+
+
+===== CPU =====
+
+
+Name                      : AMD Athlon Gold 3150U with Radeon Graphics     
+NumberOfCores             : 2
+NumberOfLogicalProcessors : 4
+MaxClockSpeed             : 2400
+
+
+
+
+
+===== OS =====
+
+
+Caption        : Microsoft Windows 11 Home
+Version        : 10.0.22631
+BuildNumber    : 22631
+OSArchitecture : 64-bit
+
+
+
+
+
+===== Power plan =====
+Power Scheme GUID: 48684d4a-8524-4093-8a63-ea7132b79c1c  (HP Recommended)
+
+
+===== Disk drives (model, firmware, interface) =====
+
+
+Index            : 0
+Model            : SAMSUNG MZVLQ128HCHQ-00BH1
+FirmwareRevision : HPS1NFAV
+InterfaceType    : SCSI
+Size             : 128034708480
+BytesPerSector   : 512
+
+
+
+
+
+===== Physical disks (media/bus type, health) =====
+
+
+DeviceId          : 0
+FriendlyName      : SAMSUNG MZVLQ128HCHQ-00BH1
+MediaType         : SSD
+BusType           : NVMe
+Size              : 128035676160
+HealthStatus      : Healthy
+OperationalStatus : OK
+
+
+
+
+
+===== Volumes (filesystem, free space) =====
+
+DriveLetter FileSystemLabel FileSystem         Size SizeRemaining
+----------- --------------- ----------         ---- -------------
+          C Windows         NTFS       126704676864    4637794304
+
+
+
+
+===== Drive letter -> disk number =====
+
+DriveLetter DiskNumber PartitionNumber
+----------- ---------- ---------------
+          C          0               3
+
+
+
+
+===== SSD health counters (temperature, wear) - needs admin =====
+
+
+===== Write cache policy (Device Manager > Disk > Policies; not scriptable reliably) =====
+Check manually and note: 'Enable write caching on the device' on/off
+
+
+===== fio =====
+fio-3.43
+
+
+===== Python =====
+Python 3.12.10
+
+
+===== Test drive C =====
+Drive C is on physical disk number 0
+
+
+FriendlyName : SAMSUNG MZVLQ128HCHQ-00BH1
+MediaType    : SSD
+BusType      : NVMe
+Size         : 128035676160
+
+
+
+

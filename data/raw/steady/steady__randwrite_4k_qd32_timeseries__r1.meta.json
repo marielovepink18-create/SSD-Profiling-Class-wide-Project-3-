@@ -1,0 +1,33 @@
+{
+  "id": "steady__randwrite_4k_qd32_timeseries__r1",
+  "stage": "steady",
+  "label": "randwrite_4k_qd32_timeseries",
+  "rep": 1,
+  "rw": "randwrite",
+  "pattern": "random",
+  "bs": "4k",
+  "bs_bytes": 4096,
+  "iodepth": 32,
+  "numjobs": 1,
+  "rwmixread": null,
+  "span_gib": 4.0,
+  "direct": 1,
+  "ioengine": "windowsaio",
+  "compress_pct": 0,
+  "note": "sustained writes; per-second logs show burst -> steady state / throttling",
+  "extra": {},
+  "runtime_s": 60,
+  "start": "2026-10-22T16:23:53",
+  "wall_s": 60.8,
+  "returncode": 0,
+  "stderr_tail": "",
+  "temp_before_c": 66.0,
+  "temp_after_c": 69.0,
+  "temp_series": [
+    [
+      30.1,
+      79.0
+    ]
+  ],
+  "fio_version": "fio-3.43"
+}

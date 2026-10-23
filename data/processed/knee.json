@@ -1,0 +1,10 @@
+{
+  "randread_max_iops": 20888.138982999997,
+  "randread_knee_qd_90pct": 16,
+  "randread_knee_qd_chord": 16,
+  "randread_n_star_littles": 4.559642852754854,
+  "randwrite_max_iops": 12640.232471,
+  "randwrite_knee_qd_90pct": 4,
+  "randwrite_knee_qd_chord": 4,
+  "randwrite_n_star_littles": 1.6751806777980223
+}

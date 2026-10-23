@@ -1,0 +1,12 @@
+; prep: write the whole test file once (layout + sequential fill)
+[global]
+[prep_fill]
+filename=C\:\fio_test\ssd_profile_testfile.bin
+ioengine=windowsaio
+direct=1
+rw=write
+bs=1m
+iodepth=16
+size=4096m
+refill_buffers=1
+buffer_compress_percentage=0

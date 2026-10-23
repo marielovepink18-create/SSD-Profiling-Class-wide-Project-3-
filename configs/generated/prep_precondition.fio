@@ -1,0 +1,16 @@
+; precondition: sustained 4KiB random overwrite of the full range
+[global]
+[prep_randwrite]
+filename=C\:\fio_test\ssd_profile_testfile.bin
+ioengine=windowsaio
+direct=1
+rw=randwrite
+bs=4k
+iodepth=32
+size=4096m
+time_based=1
+runtime=30
+randrepeat=0
+norandommap=1
+refill_buffers=1
+buffer_compress_percentage=0

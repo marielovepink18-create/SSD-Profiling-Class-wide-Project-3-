@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+_synthetic/
+# the big throwaway FIO test file must never be committed
+*.bin
+ssd_profile_testfile*

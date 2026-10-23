@@ -1,0 +1,24 @@
+; stage=steady label=seqwrite_128k_qd32_timeseries rep=1
+[global]
+[steady__seqwrite_128k_qd32_timeseries__r1]
+filename=C\:\fio_test\ssd_profile_testfile.bin
+ioengine=windowsaio
+direct=1
+rw=write
+bs=128k
+iodepth=32
+numjobs=1
+size=4096m
+offset=0
+time_based=1
+runtime=60
+ramp_time=0
+group_reporting=1
+randrepeat=0
+refill_buffers=1
+buffer_compress_percentage=0
+percentile_list=50:90:95:99:99.9:99.99
+write_bw_log=steady__seqwrite_128k_qd32_timeseries__r1
+write_iops_log=steady__seqwrite_128k_qd32_timeseries__r1
+write_lat_log=steady__seqwrite_128k_qd32_timeseries__r1
+log_avg_msec=1000
